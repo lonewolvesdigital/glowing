@@ -95,3 +95,10 @@ const scrollReveal = function () {
 scrollReveal();
 
 addEventOnElem(window, "scroll", scrollReveal);
+
+
+/**
+ * Hero slider automatic sliding and navigation with animations
+ */
+
+// Hero Slider functionality is handled in hero-slider.js to avoid conflicts

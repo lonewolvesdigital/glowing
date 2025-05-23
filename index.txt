@@ -1,4 +1,4 @@
-Glowing - Reveal The Beauty of Skin
+Jamila Beauty - Reveal Your Natural Beauty
 
 
 
@@ -14,7 +14,7 @@ aria-label = search
 
 <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
 
-alt = Glowing
+alt = Jamila Beauty
 
 aria-label = user
 
@@ -41,7 +41,7 @@ Blog
 
 #---------- MOBILE NAVBAR ----------#
 
-alt = Glowing
+alt = Jamila Beauty
 
 aria-label = close menu
 
@@ -170,7 +170,7 @@ Shop Sale
 
 #---------- FEATURE ----------#
 
-Why Shop with Glowing?
+Why Shop with Jamila Beauty?
 
 alt = Guaranteed PURE
 
@@ -241,8 +241,8 @@ Company
 Find a location nearest you. See
 Our Stores
 
-+391 (0)35 2568 4593
-hello@domain.com
++1 (888) 555-0123
+hello@jamilabeauty.com
 
 Useful links
 
@@ -267,12 +267,11 @@ placeholder = Enter your email address
 
 Subscribe
 
-&copy; 2022 codewithsadee
+&copy; 2025 Jamila Beauty
 
 <ion-icon name="logo-twitter"></ion-icon>
 <ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-youtube"></ion-icon>
+<parameter name="filePath">c:\Users\lonew\OneDrive\Desktop\glowing\index.txt
 
 alt = Glowing
 
