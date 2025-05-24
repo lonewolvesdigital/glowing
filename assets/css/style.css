@@ -225,7 +225,7 @@ body {
   transform: translateY(-50%);
   z-index: 10;
   background-color: var(--white);
-  color: var(--hoockers-green);
+  color: var(--black);
   font-size: 22px;
   padding: 13px;
   border-radius: 50%;
@@ -282,7 +282,7 @@ body {
 
 #hero-prev:is(:hover, :focus),
 #hero-next:is(:hover, :focus) {
-  background-color: var(--hoockers-green);
+  background-color: var(--black);
   color: var(--white);
 }
 
@@ -326,26 +326,26 @@ body {
 }
 
 .btn-primary {
-  background-color: var(--primary) !important;
-  color: var(--black) !important;
+  background-color: var(--primary);
+  color: var(--black);
 }
 
 .btn-primary:is(:hover, :focus) {
-  background-color: #008A8A !important;
-  color: var(--white) !important;
+  background-color: #008A8A;
+  color: var(--white);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 178, 178, 0.3);
 }
 
 .btn-secondary {
-  background-color: var(--primary) !important;
-  color: var(--black) !important;
+  background-color: var(--primary);
+  color: var(--black);
   box-shadow: var(--shadow-2);
 }
 
 .btn-secondary:is(:hover, :focus) {
-  background-color: #008A8A !important;
-  color: var(--white) !important;
+  background-color: #008A8A;
+  color: var(--white);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 178, 178, 0.3);
 }
@@ -469,7 +469,7 @@ body {
 
 .badge {
   max-width: max-content;
-  background-color: var(--hoockers-green);
+  background-color: var(--black);
   color: var(--white);
   font-weight: var(--fw-700);
   padding-inline: 12px;
@@ -624,7 +624,7 @@ body {
 
 .nav-close-btn {
   font-size: 28px;
-  color: var(--hoockers-green);
+  color: var(--black);
 }
 
 .nav-close-btn ion-icon { --ionicon-stroke-width: 40px; }
@@ -639,7 +639,7 @@ body {
   transition: var(--transition-1);
 }
 
-.mobile-navbar .navbar-link:is(:hover, :focus) { color: var(--hoockers-green); }
+.mobile-navbar .navbar-link:is(:hover, :focus) { color: var(--black); }
 
 .overlay {
   background-color: transparent;
@@ -734,7 +734,7 @@ body {
 }
 
 .collection-card .card-text {
-  color: var(--primary) !important;
+  color: var(--white);
   font-size: var(--fs-6);
   font-weight: var(--fw-600);
   margin-block-end: auto;
@@ -748,7 +748,7 @@ body {
 }
 
 .collection-card .btn-link .span {
-  color: var(--white) !important;
+  color: var(--white);
 }
 
 
@@ -768,7 +768,7 @@ body {
   margin-block-end: 50px;
 }
 
-.shop .btn-link:is(:hover, :focus) { color: var(--hoockers-green); }
+.shop .btn-link:is(:hover, :focus) { color: var(--black); }
 
 .shop-card .card-banner {
   position: relative;
@@ -842,12 +842,12 @@ body {
 
 .shop-card .card-title:is(:hover, :focus) {
   text-decoration: underline;
-  color: var(--hoockers-green);
+  color: var(--black);
 }
 
 .shop-card .rating-wrapper {
   gap: 2px;
-  color: var(--hoockers-green);
+  color: var(--black);
   font-size: 15px;
 }
 
@@ -981,7 +981,7 @@ body {
 .offer .section-text { font-size: var(--fs-6); }
 
 .offer .countdown {
-  color: var(--hoockers-green);
+  color: var(--black);
   font-size: var(--fs-2);
   line-height: 1;
   display: flex;
@@ -1026,7 +1026,7 @@ body {
   transition: var(--transition-1);
 }
 
-.blog-card .card-title:is(:hover, :focus) { color: var(--hoockers-green); }
+.blog-card .card-title:is(:hover, :focus) { color: var(--black); }
 
 .blog-card .btn-link { justify-content: center; }
 
@@ -1052,7 +1052,7 @@ body {
 }
 
 .footer-list-title {
-  color: var(--black);
+  color:#C5A572;
   font-size: var(--fs-5);
   font-weight: var(--fw-600);
   margin-block-end: 10px;
@@ -1068,7 +1068,7 @@ body {
   transition: var(--transition-1);
 }
 
-.footer-list-text .link:is(:hover, :focus) { color: var(--hoockers-green); }
+.footer-list-text .link:is(:hover, :focus) { color: var(--black); }
 
 .footer-list-text.bold {
   color: var(--black);
@@ -1077,6 +1077,7 @@ body {
 }
 
 .footer-link {
+  color: var(--black);
   font-size: var(--fs-7);
   padding-block: 5px;
 }
@@ -1084,13 +1085,14 @@ body {
 .footer-link:is(:hover, :focus) { text-decoration: underline; }
 
 .newsletter-title {
-  color: var(--black);
+  color:#C5A572;
   font-size: var(--fs-3);
   font-weight: var(--fw-600);
   line-height: 1.3;
 }
 
 .newsletter-text {
+  color: var(--black);
   font-size: var(--fs-7);
   line-height: 2;
   margin-block: 10px 35px;
@@ -1103,7 +1105,7 @@ body {
   font-size: var(--fs-7);
   padding: 12px 18px;
   padding-inline-end: 145px;
-  border: 1px solid var(--hoockers-green_20);
+  border: 1px solid var(--light-gray);
   border-radius: var(--radius-3);
   outline: none;
   transition: var(--transition-1);
@@ -1120,7 +1122,10 @@ body {
   bottom: 0;
 }
 
-.copyright { font-size: var(--fs-7); }
+.copyright {
+  color: var(--black);
+  font-size: var(--fs-7);
+}
 
 .footer-bottom .wrapper {
   display: flex;
@@ -1142,7 +1147,7 @@ body {
   transition: var(--transition-1);
 }
 
-.social-link:is(:hover, :focus) { color: var(--hoockers-green); }
+.social-link:is(:hover, :focus) { color: var(--black); }
 
 .footer-bottom > img { max-width: max-content; }
 
@@ -1165,7 +1170,7 @@ body {
   bottom: 20px;
   right: 30px;
   background-color: var(--white);
-  color: var(--hoockers-green);
+  color: var(--black);
   font-size: 22px;
   padding: 13px;
   border-radius: 50%;
@@ -1177,7 +1182,7 @@ body {
 }
 
 .back-top-btn:is(:hover, :focus) {
-  background-color: var(--hoockers-green);
+  background-color: var(--black);
   color: var(--white);
 }
 
@@ -1490,7 +1495,7 @@ body {
   .search-field {
     width: 270;
     font-size: var(--fs-7);
-    border: 2px solid var(--hoockers-green_20);
+    border: 2px solid var(--light-gray);
     border-radius: var(--radius-3);
     padding: 10px 20px;
     padding-inline-end: 40px;
@@ -1664,31 +1669,44 @@ body {
 
 /* Headings color rules */
 h1, .h1, .hero-title {
-  color: var(--accent) !important;
+  color: var(--accent);
   font-family: var(--heading-font);
 }
 h2, .h2, .h2-large, .section-title {
-  color: var(--accent) !important;
+  color: var(--accent);
   font-family: var(--heading-font);
 }
 h3, h4, h5, h6, p, .card-text, .brand-name {
-  color: var(--primary) !important;
+  color: var(--black);
   font-family: inherit;
+}
+
+/* Hero section specific paragraph styling - override teal with black */
+.hero .hero-text,
+.hero .price,
+.hero p {
+  color: var(--black);
+}
+
+/* Ensure inline black color styles take priority */
+p[style*="color: black"],
+p[style*="color:black"] {
+  color: black;
 }
 
 /* Remove teal backgrounds from links, buttons, and blocks - excluding btn-primary */
 .navbar-link.has-after, .footer-link, .newsletter-form button, .has-after, .footer-list a, .footer-list {
-  background: none !important;
-  color: inherit !important;
-  border: none !important;
+  background: none;
+  color: inherit;
+  border: none;
 }
 
 /* Footer logo full size, not cropped */
 .footer .logo-img {
-  height: auto !important;
-  width: 100px !important;
+  height: auto;
+  width: 100px;
   max-width: 100%;
-  border-radius: 0 !important;
+  border-radius: 0;
   display: block;
   margin: 0 auto 16px auto;
   object-fit: contain;
